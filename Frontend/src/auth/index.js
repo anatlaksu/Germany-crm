@@ -1,7 +1,3 @@
-/* eslint-disable no-console */
-/* eslint-disable consistent-return */
-/* eslint-disable no-else-return */
-/* eslint-disable arrow-body-style */
 import axios from "axios";
 import CryptoJS from "crypto-js";
 
@@ -15,7 +11,7 @@ export const signup = (user) => {
       console.log(err);
     });
 };
-// not in use
+
 export const signin = (user) => {
   axios
     .post(`http://localhost:5000/api/auth/signin`, user)

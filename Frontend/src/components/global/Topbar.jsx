@@ -1,12 +1,5 @@
 /* eslint-disable no-self-assign */
-import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
-import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
-import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
-import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
-import SearchIcon from "@mui/icons-material/Search";
-import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import { Box, Icon, IconButton, useTheme } from "@mui/material";
-import InputBase from "@mui/material/InputBase";
 import { useContext } from "react";
 import { ColorModeContext, tokens } from "../../theme";
 import { isAuthenticated, signout } from "../../auth";
@@ -27,12 +20,10 @@ const Topbar = () => {
 
   return (
     <Box display="flex" justifyContent="flex-end" p={2}>
-      {/* ICONS */}
       <Box display="flex">
         {user ? (
           <IconButton
             size="small"
-            // disableRipple
             color="inherit"
             aria-controls="notification-menu"
             aria-haspopup="true"
@@ -40,6 +31,7 @@ const Topbar = () => {
             onClick={Signout}
           >
             <LogoutIcon />
+            <p>sign out</p>
           </IconButton>
         ) : null}
       </Box>

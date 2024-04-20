@@ -20,14 +20,6 @@ function App() {
 
   const { user } = isAuthenticated();
 
-  // const RedirectToSignIn = () => {
-  //   return isAuthenticated ? (
-  //     <Navigate to="/report" />
-  //   ) : (
-  //     <Navigate to="/sign-in" />
-  //   );
-  // };
-
   useMemo(() => {
     if (localStorage.getItem("RefreshCount") == "1") {
       const count = parseInt(localStorage.getItem("RefreshCount"), 10) + 1;

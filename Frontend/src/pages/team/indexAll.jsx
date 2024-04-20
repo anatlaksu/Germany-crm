@@ -23,7 +23,7 @@ const TeamAll = () => {
   const columns = [
     {
       field: "id",
-      headerName: "id",
+      headerName: "report id",
       flex: 1,
     },
     {
@@ -39,18 +39,22 @@ const TeamAll = () => {
 
     {
       field: "date",
-      headerName: "date",
+      headerName: "date reported",
       flex: 1,
     },
-    { field: "time_enter", headerName: "time_enter" },
+    { 
+      field: "time_enter", 
+      headerName: "time entry",
+      flex: 1, 
+    },
     {
       field: "time_exit",
-      headerName: "time_exit",
+      headerName: "time exit",
       flex: 1,
     },
     {
       field: "update",
-      headerName: "update",
+      headerName: "update report",
       flex: 1,
       renderCell: (params) => params.value,
     },

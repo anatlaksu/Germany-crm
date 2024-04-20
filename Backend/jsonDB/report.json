@@ -1,38 +1,56 @@
 [
     {
         "_id": "1713526920328",
-        "userId": 1,
-        "userName": "as",
-        "userRole": "admin",
+        "userId": 0,
+        "userName": "anal",
+        "userRole": "user1",
         "date": "2024-04-19T11:41:52.721Z",
         "time_enter": "17:41",
         "time_exit": "19:41"
     },
     {
-        "_id": "1713527775522",
+        "_id": "1713635101594",
         "userId": 1,
-        "userName": "as",
+        "userName": "jsmith",
         "userRole": "admin",
-        "date": "2024-04-19T11:56:08.261Z",
-        "time_enter": "13:56",
-        "time_exit": "18:56"
+        "date": "2024-04-20T16:44:54.000Z",
+        "time_enter": "09:44",
+        "time_exit": "20:44"
     },
     {
-        "_id": "1713527986816",
-        "userId": 1,
-        "userName": "as",
-        "userRole": "admin",
-        "date": "2024-04-19T11:59:40.673Z",
-        "time_enter": "03:59",
-        "time_exit": "23:59"
+        "_id": "1713635168777",
+        "userId": 2,
+        "userName": "ejohn",
+        "userRole": "user2",
+        "date": "2024-04-20T16:45:51.000Z",
+        "time_enter": "07:45",
+        "time_exit": "15:46"
     },
     {
-        "_id": "1713535301119",
-        "userId": 0,
-        "userName": "ana",
-        "userRole": "1",
-        "date": "2024-04-19T14:01:34.875Z",
-        "time_enter": "18:01",
-        "time_exit": "20:01"
+        "_id": "1713635229831",
+        "userId": 3,
+        "userName": "mbrown",
+        "userRole": "admin",
+        "date": "2024-04-20T16:47:01.000Z",
+        "time_enter": "06:47",
+        "time_exit": "09:47"
+    },
+    {
+        "_id": "1713635263127",
+        "userId": 5,
+        "userName": "dmart",
+        "userRole": "user2",
+        "date": "2024-04-20T16:47:34.000Z",
+        "time_enter": "08:47",
+        "time_exit": "17:47"
+    },
+    {
+        "_id": "1713635320468",
+        "userId": 3,
+        "userName": "mbrown",
+        "userRole": "admin",
+        "date": "2024-04-19T16:48:32.000Z",
+        "time_enter": "12:48",
+        "time_exit": "20:48"
     }
 ]

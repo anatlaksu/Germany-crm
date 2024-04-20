@@ -1,16 +1,7 @@
 /* eslint-disable eqeqeq */
-import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
-import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined";
-import ContactsOutlinedIcon from "@mui/icons-material/ContactsOutlined";
-import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
-import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
-import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
-import PieChartOutlineOutlinedIcon from "@mui/icons-material/PieChartOutlineOutlined";
-import ReceiptOutlinedIcon from "@mui/icons-material/ReceiptOutlined";
-import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { useState, useEffect } from "react";
 import { Menu, MenuItem, Sidebar } from "react-pro-sidebar";
@@ -66,7 +57,6 @@ const Sidenav = () => {
   }, []);
 
   return (
-    <Box>
       <Sidebar
         rootStyles={{
           backgroundColor: colors.primary[400],
@@ -74,7 +64,6 @@ const Sidenav = () => {
         collapsed={isCollapsed}
       >
         <Menu iconShape="square">
-          {/* LOGO AND MENU ICON */}
           <MenuItem
             onClick={() => setIsCollapsed(!isCollapsed)}
             icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
@@ -100,7 +89,6 @@ const Sidenav = () => {
                   sx={{ m: "10px 0 0 0" }}
                 >
                   <div>
-                    <h4>Current Time in Germany:</h4>
                     <p style={{ fontSize: "35px" }}>{time}</p>
                   </div>
                 </Typography>
@@ -144,7 +132,6 @@ const Sidenav = () => {
           </Box>
         </Menu>
       </Sidebar>
-    </Box>
   );
 };
 
